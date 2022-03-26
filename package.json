@@ -4,12 +4,14 @@
     "description": "Bookstore application using MERN Stack",
     "main": "server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node server.js",
+        "start-server": "nodemon server.js"
     },
     "author": "Ha Khan",
     "license": "MIT",
     "dependencies": {
         "express": "^4.17.3",
-        "mongoose": "^6.2.8"
+        "mongoose": "^6.2.8",
+        "nodemon": "^2.0.15"
     }
 }
